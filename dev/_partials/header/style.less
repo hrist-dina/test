@@ -1,0 +1,53 @@
+.header {
+  margin-top: 50px;
+  &-center {
+    max-width: 525px;
+  }
+  &-logo {
+    display: flex;
+
+    max-width: 220px;
+    text-decoration: none;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  &__link {
+    text-decoration: none;
+    font-family: "roboto-regular";
+    font-size: 15px;
+    color: @cello;
+  }
+  &__item {
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.modal {
+  text-decoration: none;
+  font-family: "roboto-regular";
+  color: @white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  width: 144px;
+  height: 43px;
+  background: @cornflower-blue;
+  border-radius: 500px;
+  padding: 13px 35px;
+}
