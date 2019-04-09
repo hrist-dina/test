@@ -1,18 +1,40 @@
 .task {
   margin-top: 100px;
 
-  &-center {
+  &__inner {
+    max-width: 871px;
+    margin: auto;
     padding-top: 27px;
     padding-bottom: 10px;
     border-top: 1px solid @solitude;
     border-bottom: 1px solid @solitude;
   }
 
-  &__text {
+  &-center {
+    max-width: 617px;
+    margin: auto;
     text-align: center;
+  }
+
+  &-center__inner {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
     font-size: 15px;
     color: @light-grey;
     font-family: "roboto-regular";
-    max-width: 617px;
+  }
+  &__image {
+    max-width: 130px;
+    margin: 0 35px;
+  }
+
+  &__image-text {
+    font-size: 14px;
+    font-family: "roboto-regular";
+    color: @cello;
   }
 }
